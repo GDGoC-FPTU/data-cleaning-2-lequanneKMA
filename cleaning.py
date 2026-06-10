@@ -4,7 +4,7 @@ def mask_email(email):
     """
     Masks the email address by keeping the first character of the username 
     and adding '***' before the domain.
-    Example: vana@gmail.com -> v***@gmail.comm
+    Example: vana@gmail.com -> v***@gmail.com
     """
     if not email or '@' not in email:
         return email
